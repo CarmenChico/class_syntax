@@ -145,7 +145,8 @@ class Safe {
     this.data=data;
     this.key=key;
   }
-  unlock (key){  <<<<--- unlock is the method that is added.
+  unlock (key){
+    //  <<<<--- unlock is the method that is added.
     if (key===this.key) {
       return this.data;
     }
